@@ -44,7 +44,7 @@ This can overfit if run for too many iterations and sensitive to noisy data and 
 
 The data we are processing now have less or no outliers also we can tune the data to right fit to achieve better results
 
-## LogisticRegression:
+### LogisticRegression:
 
 LogisticRegression can be useful to identify the attrition vs retention in operations and win vs loss in games. The data set which we have chosen to work on have good line of separation which I believe a great benefit to achieve good result
 
@@ -53,3 +53,16 @@ As per my findings this model is the best algorithm for predicting probabilities
 In order to fit this models non linear functions a great amount of work is needed. Data we are processing here is well processed and I believe there is not much of changes needed
 
 As were looking for potential donors I believe this can help us predicting the required output list
+
+After looking at the results with training data set I would like to us the Gradient Boosting Classifier algoritham
+
+## Results:
+
+Metric          Unoptimized Model       Optimized Model
+
+Accuracy Score 	0.8630 	             0.8718
+
+F-score 	    0.7395 	             0.7545
+
+The scores of optimized model are better than the unoptimized model And comparing the optimized results with the benchmark results, the acquired result from optimized model are very good
+
